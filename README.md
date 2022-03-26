@@ -2,21 +2,23 @@
 
 ## CI-4-API-JWT
 
-Ini adalah contoh restful API dengan menggunakan library [php-jwt](https://github.com/devonnosuke/CI-4-API-JWT) Authorization dengan menggunakan [Codeigniter 4.1.9](https://codeigniter.com/user_guide/index.html)
+Ini adalah contoh restful API dengan menggunakan library [php-jwt](https://github.com/firebase/php-jwt) Authorization dengan menggunakan [Codeigniter 4.1.9](https://codeigniter.com/user_guide/index.html)
 
 ## Instalasi
 
-1. Instal [Codeigniter 4.1.9](https://codeigniter.com/user_guide/index.html) di local htdocs kamu menggunakan Composer
-2. Masuk ke dalam directory project yang baru kamu buat
-3. Instal library [php-jwt](https://github.com/devonnosuke/CI-4-API-JWT)
-4. Buat sebuah database dan hubungkan dengan project melalui file `.env`
-5. Jalankan terminal untuk melakukan migrasi tabel Users seperti dibawah:
+1. Install [Codeigniter 4.1.9](https://codeigniter.com/user_guide/index.html) di local htdocs kamu menggunakan Composer
+2. Masuk ke dalam directory project CI4 yang baru kamu buat menggunakan Composer
+3. Clone\ekstrak Repository ini ke ke dalam directory project yang baru kamu buat
+4. Jika ektrak dari file zip, maka akan ada pemberitahuan untuk menimpa, klik `yes`
+5. Install library [php-jwt](https://github.com/firebase/php-jwt)
+6. Buat sebuah database dan hubungkan dengan project melalui file `.env`
+7. Jalankan perintah terminal dibawah ini untuk melakukan migrasi tabel Users ke database:
 
 ```bash
 php spark migrate
 ```
 
-5 Done.
+Done.
 
 ## What is CodeIgniter?
 
